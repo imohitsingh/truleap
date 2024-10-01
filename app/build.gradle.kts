@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services") // Add the plugin here, no need for 'apply plugin' later
 }
 
 android {
@@ -32,12 +33,22 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation ("androidx.appcompat:appcompat:1.6.1")// This ensures you can use AppCompatActivity
+    implementation ("androidx.recyclerview:recyclerview:1.3.1") // Ensure this is included
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+
+    // Firebase BoM (Bill of Materials)
+    implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
+
+    // Firebase Auth (version managed by BoM)
+    implementation("com.google.firebase:firebase-auth")
 }
