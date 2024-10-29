@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_users"
+            android:icon="@drawable/ic_users"
+            android:title="View Users" />
+        <item
+            android:id="@+id/nav_add_event"
+            android:icon="@drawable/ic_add_event"
+            android:title="Add Event" />
+    </group>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout" />
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159846140995",
+    "project_id": "my-awesome-project-3bfad",
+    "storage_bucket": "my-awesome-project-3bfad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159846140995:android:0e2cccd8eae8f7372bd8f6",
+        "android_client_info": {
+          "package_name": "com.example.eventadminapp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiPWXp9-EUJZ7a5bpATMQHwf_hGio384"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

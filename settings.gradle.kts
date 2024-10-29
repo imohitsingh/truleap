@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "tru leap"
+rootProject.name = "EventAdminApp1"
 include(":app")
- 
